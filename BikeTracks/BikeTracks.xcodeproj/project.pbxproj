@@ -52,13 +52,93 @@
 		0DA720F22AE6AF740010A800 /* BikeTracks */ = {
 			isa = PBXGroup;
 			children = (
+				0DA7210F2AE6B1770010A800 /* Helpers */,
+				0DA7210E2AE6B16A0010A800 /* Utilities */,
+				0DA7210D2AE6B1630010A800 /* Models */,
+				0DA7210C2AE6B15B0010A800 /* Networking */,
+				0DA721082AE6B1320010A800 /* Presentations */,
 				0DA720F32AE6AF740010A800 /* AppDelegate.swift */,
 				0DA720F52AE6AF740010A800 /* SceneDelegate.swift */,
-				0DA720FC2AE6AF750010A800 /* Assets.xcassets */,
-				0DA720FE2AE6AF750010A800 /* LaunchScreen.storyboard */,
+				0DA721072AE6B1200010A800 /* SupportingFiles */,
 				0DA721012AE6AF750010A800 /* Info.plist */,
 			);
 			path = BikeTracks;
+			sourceTree = "<group>";
+		};
+		0DA721072AE6B1200010A800 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				0DA720FC2AE6AF750010A800 /* Assets.xcassets */,
+				0DA720FE2AE6AF750010A800 /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		0DA721082AE6B1320010A800 /* Presentations */ = {
+			isa = PBXGroup;
+			children = (
+				0DA7210B2AE6B1520010A800 /* Screens */,
+				0DA7210A2AE6B14C0010A800 /* Cells */,
+				0DA721092AE6B1440010A800 /* Views */,
+			);
+			path = Presentations;
+			sourceTree = "<group>";
+		};
+		0DA721092AE6B1440010A800 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0DA7210A2AE6B14C0010A800 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0DA7210B2AE6B1520010A800 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0DA7210C2AE6B15B0010A800 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		0DA7210D2AE6B1630010A800 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0DA7210E2AE6B16A0010A800 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		0DA7210F2AE6B1770010A800 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0DA721102AE6B1800010A800 /* Coordinator */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0DA721102AE6B1800010A800 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
