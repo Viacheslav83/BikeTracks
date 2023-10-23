@@ -7,16 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D9CB4032AE6C66D004F8A53 /* BikeTracksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4022AE6C66D004F8A53 /* BikeTracksVC.swift */; };
+		0D9CB4052AE6C67C004F8A53 /* BikeTracksCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4042AE6C67C004F8A53 /* BikeTracksCoordinator.swift */; };
+		0D9CB4072AE6C687004F8A53 /* BikeTracksVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4062AE6C687004F8A53 /* BikeTracksVM.swift */; };
+		0D9CB4092AE6C7F5004F8A53 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4082AE6C7F5004F8A53 /* CoordinatorProtocol.swift */; };
+		0D9CB40B2AE6D498004F8A53 /* BikeTracksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB40A2AE6D498004F8A53 /* BikeTracksView.swift */; };
+		0D9CB40E2AE6DA9A004F8A53 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB40D2AE6DA9A004F8A53 /* UIView+Extension.swift */; };
 		0DA720F42AE6AF740010A800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA720F32AE6AF740010A800 /* AppDelegate.swift */; };
-		0DA720F62AE6AF740010A800 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA720F52AE6AF740010A800 /* SceneDelegate.swift */; };
 		0DA720FD2AE6AF750010A800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA720FC2AE6AF750010A800 /* Assets.xcassets */; };
 		0DA721002AE6AF750010A800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA720FE2AE6AF750010A800 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D9CB4022AE6C66D004F8A53 /* BikeTracksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTracksVC.swift; sourceTree = "<group>"; };
+		0D9CB4042AE6C67C004F8A53 /* BikeTracksCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTracksCoordinator.swift; sourceTree = "<group>"; };
+		0D9CB4062AE6C687004F8A53 /* BikeTracksVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTracksVM.swift; sourceTree = "<group>"; };
+		0D9CB4082AE6C7F5004F8A53 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
+		0D9CB40A2AE6D498004F8A53 /* BikeTracksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTracksView.swift; sourceTree = "<group>"; };
+		0D9CB40D2AE6DA9A004F8A53 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		0DA720F02AE6AF740010A800 /* BikeTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA720F32AE6AF740010A800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0DA720F52AE6AF740010A800 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		0DA720FC2AE6AF750010A800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA720FF2AE6AF750010A800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA721012AE6AF750010A800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D9CB40C2AE6DA8C004F8A53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0D9CB40D2AE6DA9A004F8A53 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		0DA720E72AE6AF740010A800 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +76,6 @@
 				0DA7210C2AE6B15B0010A800 /* Networking */,
 				0DA721082AE6B1320010A800 /* Presentations */,
 				0DA720F32AE6AF740010A800 /* AppDelegate.swift */,
-				0DA720F52AE6AF740010A800 /* SceneDelegate.swift */,
 				0DA721072AE6B1200010A800 /* SupportingFiles */,
 				0DA721012AE6AF750010A800 /* Info.plist */,
 			);
@@ -87,6 +104,7 @@
 		0DA721092AE6B1440010A800 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB40A2AE6D498004F8A53 /* BikeTracksView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -101,6 +119,9 @@
 		0DA7210B2AE6B1520010A800 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB4022AE6C66D004F8A53 /* BikeTracksVC.swift */,
+				0D9CB4042AE6C67C004F8A53 /* BikeTracksCoordinator.swift */,
+				0D9CB4062AE6C687004F8A53 /* BikeTracksVM.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -129,6 +150,7 @@
 		0DA7210F2AE6B1770010A800 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB40C2AE6DA8C004F8A53 /* Extensions */,
 				0DA721102AE6B1800010A800 /* Coordinator */,
 			);
 			path = Helpers;
@@ -137,6 +159,7 @@
 		0DA721102AE6B1800010A800 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB4082AE6C7F5004F8A53 /* CoordinatorProtocol.swift */,
 			);
 			path = Coordinator;
 			sourceTree = "<group>";
@@ -211,8 +234,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D9CB4032AE6C66D004F8A53 /* BikeTracksVC.swift in Sources */,
+				0D9CB40E2AE6DA9A004F8A53 /* UIView+Extension.swift in Sources */,
+				0D9CB40B2AE6D498004F8A53 /* BikeTracksView.swift in Sources */,
+				0D9CB4052AE6C67C004F8A53 /* BikeTracksCoordinator.swift in Sources */,
+				0D9CB4092AE6C7F5004F8A53 /* CoordinatorProtocol.swift in Sources */,
+				0D9CB4072AE6C687004F8A53 /* BikeTracksVM.swift in Sources */,
 				0DA720F42AE6AF740010A800 /* AppDelegate.swift in Sources */,
-				0DA720F62AE6AF740010A800 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
