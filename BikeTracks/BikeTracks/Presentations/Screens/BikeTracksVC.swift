@@ -21,6 +21,7 @@ final class BikeTracksVC: UIViewController {
     init(viewModel: BikeTracksVMProtocol) {
         self.viewModel = viewModel
         super.init(nibName: nil, bundle: nil)
+        viewModel.delegate = self
     }
     
     required init?(coder: NSCoder) {
@@ -29,16 +30,53 @@ final class BikeTracksVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        setupView()
+        viewModel.fetchTracks()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        title = "Bike tracks"
     }
 }
 
+//MARK: - BikeTracksVC
 private extension BikeTracksVC {
     func setupView() {
-//        let models = viewModel.data
-//        onboardingView.configureScrollViewContent(models: models)
-//        onboardingView.delegate = self
-//        view.add([onboardingView])
-//        onboardingView.autoPinEdgesToSuperView()
+        view.backgroundColor = .white
+        view.add([
+            bikeTracksView
+        ])
+        bikeTracksView.autoPinSafeEdgesToSuperView(topConstant: 16)
+        
+        bikeTracksView.delegate = self
+    }
+}
+
+//MARK: - BikeTracksVMDelegating
+extension BikeTracksVC: BikeTracksVMDelegating {
+    func didUpdatedDataSource(models: [TrackModel]) {
+        bikeTracksView.applySnapshot(items: models)
+    }
+    
+    func showError(message: String) {
+        presentBasicAlert(message: message, isAutomaticallyDismissed: true) {
+            print("presentBasicAlert")
+        }
+    }
+}
+
+//MARK: - BikeTracksViewDelegating
+extension BikeTracksVC: BikeTracksViewDelegating {
+    func didTapItem(_ sender: BikeTracksView, item: TrackModel) {
+        guard item.emptySlots != 0 else {
+            presentBasicAlert(title: "No Empty Slots",
+                              message: "Sorry, you should chose another track",
+                              buttonTitle: "Okay",
+                              isAutomaticallyDismissed: true)
+            return
+        }
+        
+        coordinator?.openMapForPlace(item: item)
     }
 }

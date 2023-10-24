@@ -13,9 +13,31 @@
 		0D9CB4092AE6C7F5004F8A53 /* CoordinatorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4082AE6C7F5004F8A53 /* CoordinatorProtocol.swift */; };
 		0D9CB40B2AE6D498004F8A53 /* BikeTracksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB40A2AE6D498004F8A53 /* BikeTracksView.swift */; };
 		0D9CB40E2AE6DA9A004F8A53 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB40D2AE6DA9A004F8A53 /* UIView+Extension.swift */; };
+		0D9CB4102AE6DB96004F8A53 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB40F2AE6DB96004F8A53 /* UIColor+Extension.swift */; };
+		0D9CB4122AE6DBB7004F8A53 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4112AE6DBB7004F8A53 /* UIFont+Extension.swift */; };
+		0D9CB41A2AE6DCEE004F8A53 /* TracksSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4192AE6DCEE004F8A53 /* TracksSection.swift */; };
+		0D9CB41C2AE6E02D004F8A53 /* TrackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB41B2AE6E02D004F8A53 /* TrackModel.swift */; };
+		0D9CB41E2AE6E052004F8A53 /* TrackResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB41D2AE6E052004F8A53 /* TrackResponseModel.swift */; };
+		0D9CB4202AE6E21D004F8A53 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB41F2AE6E21D004F8A53 /* LocationModel.swift */; };
+		0D9CB4222AE6E437004F8A53 /* ExtraModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4212AE6E437004F8A53 /* ExtraModel.swift */; };
+		0D9CB4242AE6E474004F8A53 /* NetworkRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4232AE6E474004F8A53 /* NetworkRequestManager.swift */; };
+		0D9CB4262AE6E492004F8A53 /* ApiError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4252AE6E492004F8A53 /* ApiError.swift */; };
+		0D9CB4282AE6E4B6004F8A53 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4272AE6E4B6004F8A53 /* ApiRequest.swift */; };
+		0D9CB42A2AE6E523004F8A53 /* TrackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4292AE6E523004F8A53 /* TrackService.swift */; };
+		0D9CB42D2AE6E5E7004F8A53 /* TrackTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB42C2AE6E5E7004F8A53 /* TrackTableViewCell.swift */; };
+		0D9CB42F2AE6E636004F8A53 /* TrackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB42E2AE6E636004F8A53 /* TrackView.swift */; };
+		0D9CB4312AE6E68A004F8A53 /* NibCapable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4302AE6E68A004F8A53 /* NibCapable+Extension.swift */; };
+		0D9CB4332AE6EBAD004F8A53 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4322AE6EBAD004F8A53 /* UIViewController+Extension.swift */; };
+		0D9CB4352AE6ED3F004F8A53 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4342AE6ED3F004F8A53 /* EndPoint.swift */; };
+		0D9CB4372AE6F121004F8A53 /* NetworkResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D9CB4362AE6F121004F8A53 /* NetworkResponse.swift */; };
 		0DA720F42AE6AF740010A800 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA720F32AE6AF740010A800 /* AppDelegate.swift */; };
 		0DA720FD2AE6AF750010A800 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA720FC2AE6AF750010A800 /* Assets.xcassets */; };
 		0DA721002AE6AF750010A800 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA720FE2AE6AF750010A800 /* LaunchScreen.storyboard */; };
+		0DBD5A592AE79B01002B3B63 /* MockLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD5A582AE79B00002B3B63 /* MockLocation.swift */; };
+		0DBD5A5B2AE79D10002B3B63 /* ImageNameType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD5A5A2AE79D10002B3B63 /* ImageNameType.swift */; };
+		0DBD5A5D2AE79DA2002B3B63 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD5A5C2AE79DA2002B3B63 /* UIImage+Extension.swift */; };
+		0DBD5A5F2AE79E4A002B3B63 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD5A5E2AE79E4A002B3B63 /* UIStackView+Extension.swift */; };
+		0DBD5A612AE7AFFE002B3B63 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBD5A602AE7AFFE002B3B63 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,11 +47,38 @@
 		0D9CB4082AE6C7F5004F8A53 /* CoordinatorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorProtocol.swift; sourceTree = "<group>"; };
 		0D9CB40A2AE6D498004F8A53 /* BikeTracksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTracksView.swift; sourceTree = "<group>"; };
 		0D9CB40D2AE6DA9A004F8A53 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		0D9CB40F2AE6DB96004F8A53 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		0D9CB4112AE6DBB7004F8A53 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
+		0D9CB4142AE6DBFD004F8A53 /* Montserrat-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.ttf"; sourceTree = "<group>"; };
+		0D9CB4152AE6DBFD004F8A53 /* Montserrat-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Regular.ttf"; sourceTree = "<group>"; };
+		0D9CB4162AE6DBFD004F8A53 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		0D9CB4172AE6DBFD004F8A53 /* Montserrat-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.ttf"; sourceTree = "<group>"; };
+		0D9CB4182AE6DBFD004F8A53 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		0D9CB4192AE6DCEE004F8A53 /* TracksSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracksSection.swift; sourceTree = "<group>"; };
+		0D9CB41B2AE6E02D004F8A53 /* TrackModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackModel.swift; sourceTree = "<group>"; };
+		0D9CB41D2AE6E052004F8A53 /* TrackResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackResponseModel.swift; sourceTree = "<group>"; };
+		0D9CB41F2AE6E21D004F8A53 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		0D9CB4212AE6E437004F8A53 /* ExtraModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtraModel.swift; sourceTree = "<group>"; };
+		0D9CB4232AE6E474004F8A53 /* NetworkRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequestManager.swift; sourceTree = "<group>"; };
+		0D9CB4252AE6E492004F8A53 /* ApiError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiError.swift; sourceTree = "<group>"; };
+		0D9CB4272AE6E4B6004F8A53 /* ApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		0D9CB4292AE6E523004F8A53 /* TrackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackService.swift; sourceTree = "<group>"; };
+		0D9CB42C2AE6E5E7004F8A53 /* TrackTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackTableViewCell.swift; sourceTree = "<group>"; };
+		0D9CB42E2AE6E636004F8A53 /* TrackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackView.swift; sourceTree = "<group>"; };
+		0D9CB4302AE6E68A004F8A53 /* NibCapable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NibCapable+Extension.swift"; sourceTree = "<group>"; };
+		0D9CB4322AE6EBAD004F8A53 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		0D9CB4342AE6ED3F004F8A53 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		0D9CB4362AE6F121004F8A53 /* NetworkResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkResponse.swift; sourceTree = "<group>"; };
 		0DA720F02AE6AF740010A800 /* BikeTracks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeTracks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DA720F32AE6AF740010A800 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DA720FC2AE6AF750010A800 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DA720FF2AE6AF750010A800 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DA721012AE6AF750010A800 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DBD5A582AE79B00002B3B63 /* MockLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockLocation.swift; sourceTree = "<group>"; };
+		0DBD5A5A2AE79D10002B3B63 /* ImageNameType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNameType.swift; sourceTree = "<group>"; };
+		0DBD5A5C2AE79DA2002B3B63 /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		0DBD5A5E2AE79E4A002B3B63 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		0DBD5A602AE7AFFE002B3B63 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,8 +96,35 @@
 			isa = PBXGroup;
 			children = (
 				0D9CB40D2AE6DA9A004F8A53 /* UIView+Extension.swift */,
+				0D9CB40F2AE6DB96004F8A53 /* UIColor+Extension.swift */,
+				0D9CB4112AE6DBB7004F8A53 /* UIFont+Extension.swift */,
+				0D9CB4322AE6EBAD004F8A53 /* UIViewController+Extension.swift */,
+				0DBD5A5C2AE79DA2002B3B63 /* UIImage+Extension.swift */,
+				0DBD5A5E2AE79E4A002B3B63 /* UIStackView+Extension.swift */,
+				0DBD5A602AE7AFFE002B3B63 /* String+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0D9CB4132AE6DBDC004F8A53 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				0D9CB4172AE6DBFD004F8A53 /* Montserrat-Black.ttf */,
+				0D9CB4182AE6DBFD004F8A53 /* Montserrat-Bold.ttf */,
+				0D9CB4142AE6DBFD004F8A53 /* Montserrat-ExtraBold.ttf */,
+				0D9CB4152AE6DBFD004F8A53 /* Montserrat-Regular.ttf */,
+				0D9CB4162AE6DBFD004F8A53 /* Montserrat-SemiBold.ttf */,
+				0D9CB4302AE6E68A004F8A53 /* NibCapable+Extension.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		0D9CB42B2AE6E5CB004F8A53 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				0D9CB42C2AE6E5E7004F8A53 /* TrackTableViewCell.swift */,
+			);
+			path = TableViewCells;
 			sourceTree = "<group>";
 		};
 		0DA720E72AE6AF740010A800 = {
@@ -105,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				0D9CB40A2AE6D498004F8A53 /* BikeTracksView.swift */,
+				0D9CB42E2AE6E636004F8A53 /* TrackView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -112,6 +189,7 @@
 		0DA7210A2AE6B14C0010A800 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB42B2AE6E5CB004F8A53 /* TableViewCells */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -129,6 +207,9 @@
 		0DA7210C2AE6B15B0010A800 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB4232AE6E474004F8A53 /* NetworkRequestManager.swift */,
+				0D9CB4272AE6E4B6004F8A53 /* ApiRequest.swift */,
+				0D9CB4292AE6E523004F8A53 /* TrackService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -136,6 +217,11 @@
 		0DA7210D2AE6B1630010A800 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB4362AE6F121004F8A53 /* NetworkResponse.swift */,
+				0D9CB41D2AE6E052004F8A53 /* TrackResponseModel.swift */,
+				0D9CB41B2AE6E02D004F8A53 /* TrackModel.swift */,
+				0D9CB41F2AE6E21D004F8A53 /* LocationModel.swift */,
+				0D9CB4212AE6E437004F8A53 /* ExtraModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -143,6 +229,11 @@
 		0DA7210E2AE6B16A0010A800 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB4192AE6DCEE004F8A53 /* TracksSection.swift */,
+				0D9CB4252AE6E492004F8A53 /* ApiError.swift */,
+				0D9CB4342AE6ED3F004F8A53 /* EndPoint.swift */,
+				0DBD5A582AE79B00002B3B63 /* MockLocation.swift */,
+				0DBD5A5A2AE79D10002B3B63 /* ImageNameType.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -150,6 +241,7 @@
 		0DA7210F2AE6B1770010A800 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				0D9CB4132AE6DBDC004F8A53 /* Fonts */,
 				0D9CB40C2AE6DA8C004F8A53 /* Extensions */,
 				0DA721102AE6B1800010A800 /* Coordinator */,
 			);
@@ -235,12 +327,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D9CB4032AE6C66D004F8A53 /* BikeTracksVC.swift in Sources */,
+				0DBD5A5F2AE79E4A002B3B63 /* UIStackView+Extension.swift in Sources */,
+				0D9CB4242AE6E474004F8A53 /* NetworkRequestManager.swift in Sources */,
+				0D9CB42F2AE6E636004F8A53 /* TrackView.swift in Sources */,
 				0D9CB40E2AE6DA9A004F8A53 /* UIView+Extension.swift in Sources */,
+				0D9CB42A2AE6E523004F8A53 /* TrackService.swift in Sources */,
 				0D9CB40B2AE6D498004F8A53 /* BikeTracksView.swift in Sources */,
+				0D9CB41C2AE6E02D004F8A53 /* TrackModel.swift in Sources */,
+				0D9CB4222AE6E437004F8A53 /* ExtraModel.swift in Sources */,
+				0D9CB41A2AE6DCEE004F8A53 /* TracksSection.swift in Sources */,
 				0D9CB4052AE6C67C004F8A53 /* BikeTracksCoordinator.swift in Sources */,
+				0DBD5A5B2AE79D10002B3B63 /* ImageNameType.swift in Sources */,
 				0D9CB4092AE6C7F5004F8A53 /* CoordinatorProtocol.swift in Sources */,
 				0D9CB4072AE6C687004F8A53 /* BikeTracksVM.swift in Sources */,
+				0D9CB4332AE6EBAD004F8A53 /* UIViewController+Extension.swift in Sources */,
+				0D9CB41E2AE6E052004F8A53 /* TrackResponseModel.swift in Sources */,
+				0D9CB4122AE6DBB7004F8A53 /* UIFont+Extension.swift in Sources */,
+				0D9CB4202AE6E21D004F8A53 /* LocationModel.swift in Sources */,
+				0D9CB4262AE6E492004F8A53 /* ApiError.swift in Sources */,
+				0D9CB4372AE6F121004F8A53 /* NetworkResponse.swift in Sources */,
+				0D9CB4312AE6E68A004F8A53 /* NibCapable+Extension.swift in Sources */,
 				0DA720F42AE6AF740010A800 /* AppDelegate.swift in Sources */,
+				0DBD5A5D2AE79DA2002B3B63 /* UIImage+Extension.swift in Sources */,
+				0DBD5A592AE79B01002B3B63 /* MockLocation.swift in Sources */,
+				0D9CB4102AE6DB96004F8A53 /* UIColor+Extension.swift in Sources */,
+				0D9CB4352AE6ED3F004F8A53 /* EndPoint.swift in Sources */,
+				0D9CB4282AE6E4B6004F8A53 /* ApiRequest.swift in Sources */,
+				0DBD5A612AE7AFFE002B3B63 /* String+Extension.swift in Sources */,
+				0D9CB42D2AE6E5E7004F8A53 /* TrackTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -387,6 +501,7 @@
 				DEVELOPMENT_TEAM = 6Z5CWU22LN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BikeTracks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "Fonts provided by application";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -414,6 +529,7 @@
 				DEVELOPMENT_TEAM = 6Z5CWU22LN;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = BikeTracks/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "Fonts provided by application";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
