@@ -6,9 +6,12 @@
 //
 
 import UIKit
+import CoreLocation
+
 
 final class BikeTracksVC: UIViewController {
     var coordinator: BikeTracksCoordinator?
+    private var locationManager: CLLocationManager?
     
     private let bikeTracksView: BikeTracksView = {
         let view = BikeTracksView()
@@ -31,7 +34,8 @@ final class BikeTracksVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
-        viewModel.fetchTracks()
+        //        viewModel.fetchTracks()
+        setupLocationManager()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -50,6 +54,12 @@ private extension BikeTracksVC {
         bikeTracksView.autoPinSafeEdgesToSuperView(topConstant: 16)
         
         bikeTracksView.delegate = self
+    }
+    
+    func setupLocationManager() {
+        locationManager = CLLocationManager()
+        locationManager?.delegate = self
+        locationManager?.requestAlwaysAuthorization()
     }
 }
 
@@ -78,5 +88,15 @@ extension BikeTracksVC: BikeTracksViewDelegating {
         }
         
         coordinator?.openMapForPlace(item: item)
+    }
+}
+
+//MARK: - CLLocationManagerDelegate
+extension BikeTracksVC: CLLocationManagerDelegate {
+    func locationManager(_ manager: CLLocationManager, didChangeAuthorization status: CLAuthorizationStatus) {
+        if status == .authorizedAlways {
+            print(status)
+            viewModel.fetchTracks()
+        }
     }
 }
